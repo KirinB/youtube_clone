@@ -1,0 +1,32 @@
+.cardshort {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+}
+
+.imageshorts {
+  width: 234px;
+  height: 416px;
+  border-radius: 12px;
+}
+
+.titleshorts {
+  width: 100%;
+  color: #0f0f0f;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  padding: 12px 24px 0 0;
+}
+
+.viewshorts {
+  flex: 1;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  white-space: normal;
+  color: #606060;
+}

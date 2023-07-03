@@ -1,0 +1,36 @@
+.SearchItem {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-search-item {
+  display: flex;
+  align-items: center;
+  padding: 0 24px 0 16px;
+}
+.wrapper-search-item:hover {
+  background-color: rgba(144, 144, 144, 0.1);
+}
+
+.title-search-item {
+  flex: 1;
+}
+
+.icon-title-item {
+  font-size: 16px;
+  margin-right: 14px;
+}
+
+.title-search-item > span {
+  font-size: 16px;
+  color: #030303;
+  font-weight: 500;
+  text-align: left;
+  line-height: 36px;
+}
+
+.delete-btn-search {
+  font-size: 13px;
+  line-height: 36px;
+}

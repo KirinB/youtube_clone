@@ -1,0 +1,32 @@
+.sort-btn {
+  display: inline-flex;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  font-size: 14px;
+  height: 32px;
+  margin: 12px 12px 12px 0;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: rgb(15, 15, 15);
+  line-height: 32px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.sort-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sort-btn.active {
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.sort-btn:first-child {
+  margin-left: 24px;
+}
+
+.sort-btn:last-child {
+  margin-right: 0;
+}

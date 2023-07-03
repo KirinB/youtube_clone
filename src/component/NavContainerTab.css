@@ -1,0 +1,16 @@
+.Nav-container-tab {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid;
+  border-color: #ccc;
+  box-sizing: border-box;
+}
+
+.Nav-title-tab {
+  padding: 6px 12px 4px;
+  color: #0f0f0f;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+}

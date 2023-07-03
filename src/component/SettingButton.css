@@ -1,0 +1,43 @@
+.info-settings-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.info-avt-user {
+  flex: 1;
+}
+
+.SettingBtn-Avt {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+}
+
+.info-id-user {
+  display: flex;
+  flex-direction: column;
+}
+.info-id-user > p,
+.info-id-user > span {
+  font-size: 16px;
+  color: #0f0f0f;
+  flex: 1;
+  margin: 0;
+}
+
+.info-id-user > a {
+  font-size: 14px;
+  flex: 1;
+  margin: 0;
+}
+
+.setting-item-1 {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.setting-item-1.none {
+  border-bottom: none;
+}

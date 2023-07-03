@@ -1,0 +1,12 @@
+.live-btn{
+    display: flex;
+    background-color: rgba(204, 0, 0, 0.9);
+    width: 88px;
+    height: 16px;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #fff;
+}
+.liveicon{
+    margin-right: 4px;
+}

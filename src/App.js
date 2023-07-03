@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+// import Header from "./component/Header";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage/HomePage";
+import ShortPage from "./Pages/Shorts";
+// import Navigation from "./component/Navigation";
+// import NavigationHiden from "./component/NavigationHidden";
+import LoginPage from "./Pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
+import Layout from "./component/Layout/Layout";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(true);
+
+  const toggleNavigation = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={<Layout toggleNavigation={toggleNavigation} isOpen={isOpen} />}
+      >
+        <Route index element={<HomePage isOpen={isOpen} />} />
+        <Route path="shorts" element={<ShortPage />} />
+        <Route path="register" element={<RegisterPage />} />
+      </Route>
+      <Route path="/login" element={<LoginPage />} />
+    </Routes>
   );
 }
 

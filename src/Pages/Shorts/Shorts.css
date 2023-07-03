@@ -1,0 +1,98 @@
+.shortpage {
+  display: flex;
+  padding-top: 24px;
+  justify-content: center;
+}
+
+.shortpage-image {
+  position: relative;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 12px 0;
+}
+
+.btn-short {
+  border: none;
+  background-color: rgba(144, 144, 144, 0.1);
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+}
+
+.btn-short:hover {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+.actions > p {
+  color: #0f0f0f;
+  font-size: 14px;
+}
+
+.shorts-avt-profile {
+  margin-top: 8px;
+  border-radius: 9999px;
+}
+
+.text-shorts-page {
+  width: 420px;
+}
+.text-shorts-page > p {
+  margin: 0;
+}
+
+.info-shorts-video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shorts-avt-info {
+  margin: 0;
+  border-radius: 9999px;
+}
+
+.left-info-shorts {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.left-info-shorts > p {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 12px;
+  color: #fff;
+}
+
+.info-channel-shorts {
+  display: flex;
+  align-items: center;
+}
+
+.btn-info-shorts {
+  display: flex;
+  border: none;
+  background-color: #fff;
+  color: #0f0f0f;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 9999px;
+}
+
+.title-shorts-video > p {
+  color: #fff;
+}
+
+.btn-info-shorts:hover {
+  background-color: rgba(241, 241, 241, 1);
+}

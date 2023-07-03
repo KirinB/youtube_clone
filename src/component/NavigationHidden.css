@@ -1,0 +1,9 @@
+.navigation-hidden {
+  width: 72px;
+  box-sizing: border-box;
+}
+
+.navigation-hidden > a {
+  text-decoration: none;
+  color: #0f0f0f;
+}

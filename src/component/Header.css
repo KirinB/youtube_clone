@@ -1,0 +1,166 @@
+.header-container {
+  background-color: transparent;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.start {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-bars {
+  border: none;
+  background-color: transparent;
+}
+
+.header-bars-icon {
+  width: 24px;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 9999px;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+.header-logo-icon {
+  padding: 18px 14px 18px 16px;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.topbar-logo-renderer {
+  position: absolute;
+  color: #606060;
+  margin: 12px 0 0 -10px;
+  font-size: 0.6rem;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-input-search,
+.search-result {
+  width: 500px;
+}
+
+.header-input-search {
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 40px 0 0 40px;
+  padding: 2px 16px;
+  height: 40px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.header-btn-search {
+  border: 1px solid;
+  border-color: #ccc;
+  padding: 2px 6px;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-glass-search {
+  width: 24px;
+}
+
+.header-btn-micro {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 14px;
+  padding: 12px 14px;
+  border-radius: 50%;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-upload-icon {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 8px;
+  margin-right: 14px;
+  border-radius: 999px;
+  box-sizing: content-box;
+}
+
+.header-btn-micro:hover,
+.header-bars-icon:hover,
+.header-notification-icon:hover,
+.header-upload-icon:hover {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+.header-notification {
+  display: flex;
+  position: relative;
+}
+
+.header-notification-icon {
+  box-sizing: content-box;
+  padding: 8px;
+  margin-right: 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.number-header-notification {
+  position: absolute;
+  display: flex;
+  top: px;
+  right: 14px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #c00;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 22px;
+}
+
+.header-avatar-user {
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.header-settings {
+  width: 300px;
+}
+
+.header-popper-wrapper {
+  margin-left: -14px;
+}

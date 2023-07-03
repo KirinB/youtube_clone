@@ -1,0 +1,38 @@
+.nav-item {
+  display: flex;
+  padding: 0 12px;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.nav-item p {
+  margin: 0;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.active > p {
+  font-weight: 500;
+}
+
+.nav--icon {
+  margin-right: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item-title {
+  flex: 1;
+  color: #0f0f0f;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 130px;
+  font-weight: 400;
+}

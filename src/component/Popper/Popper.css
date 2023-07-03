@@ -1,0 +1,11 @@
+.wrapper-popper {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #ccc;
+  min-height: 100px;
+  margin-top: -10px;
+  box-shadow: rgb(0 0 0 /12%) 0px 2px 12px;
+}

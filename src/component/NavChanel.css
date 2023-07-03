@@ -1,0 +1,35 @@
+.Nav-chanel{
+    display: flex;
+    padding: 0 12px;
+    align-items: center;
+    min-height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Nav-chanel:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.Nav-chanel-avatar{
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    margin-right: 24px;
+}
+
+.Nav-chanel-title{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+    color: #0f0f0f;
+
+}
+.nav-channel-dot{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #065fd4;
+    margin: 0 6px;
+}

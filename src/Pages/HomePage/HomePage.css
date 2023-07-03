@@ -1,0 +1,24 @@
+.homepage {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 200px;
+}
+
+.homepage::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+.homepage::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.homepage::-webkit-scrollbar-thumb {
+  border-radius: 99999px;
+  background: #888;
+}
+
+/* Handle on hover */
+.homepage::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

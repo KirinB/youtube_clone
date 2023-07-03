@@ -1,0 +1,83 @@
+.padding-top-loginpage {
+  padding-top: 10vh;
+}
+.wapper-login-page {
+  display: flex;
+  justify-content: center;
+  padding: 48px 40px 36px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 440px;
+  height: 520px;
+}
+
+.background {
+  position: relative;
+}
+
+.title-login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-login > span {
+  color: #202124;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.title-login2 > p {
+  font-size: 16px;
+  color: #202124;
+  font-weight: 400;
+}
+
+.title-login {
+  padding-top: 16px;
+}
+
+.title-login2 {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.input-pass-loginpage,
+.input-id-loginpage {
+  padding: 13px 15px;
+  margin: 1px 1px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #202124;
+  font-size: 17px;
+  width: 100%;
+}
+
+.label-login-page {
+  font-size: 14px;
+  color: rgb(95, 99, 104);
+  line-height: 22px;
+  padding: 8px 0 24px;
+}
+
+.register-login-page {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+}
+
+.btn-login-page {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(26, 115, 232);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-login-page:hover {
+  background-color: rgba(26, 115, 232, 0.8);
+}
